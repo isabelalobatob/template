@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Avalon Admin Theme</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="description" content="Avalon Admin Theme">
+    <meta name="author" content="The Red Team">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 10]>
+        <script src="assets/js/media.match.min.js"></script>
+        <script src="assets/js/placeholder.min.js"></script>
+    <![endif]-->
+
+    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
+    <!-- Core CSS with all styles -->
+
+    <link href="assets/plugins/jstree/dist/themes/avalon/style.min.css" type="text/css" rel="stylesheet">
+    <!-- jsTree -->
+    <link href="assets/plugins/codeprettifier/prettify.css" type="text/css" rel="stylesheet">
+    <!-- Code Prettifier -->
+    <link href="assets/plugins/iCheck/skins/minimal/blue.css" type="text/css" rel="stylesheet">
+    <!-- iCheck -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. Placeholdr.js enables the placeholder attribute -->
+    <!--[if lt IE 9]>
+        <link href="assets/css/ie8.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/charts-flot/excanvas.min.js"></script>
+        <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+
+    <link href="assets/plugins/form-daterangepicker/daterangepicker-bs3.css" type="text/css" rel="stylesheet">
+    <!-- DateRangePicker -->
+    <link href="assets/plugins/switchery/switchery.css" type="text/css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="assets/plugins/fullcalendar/fullcalendar.css" type="text/css" rel="stylesheet">
+    <!-- FullCalendar -->
+
+</head>
+
+<body class="infobar-offcanvas">
+
+    <div id="wrapper">
+        <div id="layout-static">
+            <div class="static-content-wrapper">
+                <div class="static-content">
+                    <div class="page-content">
+                        <div class="page-heading">
+                            <h1>Previsão de Compras</h1>
+                        </div>
+                        
+                        <div class="container-fluid">
+
+                            <div data-widget-group="group1">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a class="info-tiles tiles-inverse has-footer" href="#">
+                                            <div class="tiles-heading">
+                                                <div class="pull-left">Novembro</div>
+                                                <div class="pull-right">
+                                                    <div id="tileorders" class="sparkline-block"></div>
+                                                </div>
+                                            </div>
+                                            <div class="tiles-body">
+                                                <div class="text-center">350.000</div>
+                                            </div>
+                                            <div class="tiles-footer">
+                                                <div class="pull-left">Realizadas: 20</div>
+                                                <div class="pull-right">Canceladas: 10</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a class="info-tiles tiles-green has-footer" href="#">
+                                            <div class="tiles-heading">
+                                                <div class="pull-left">Dezembro</div>
+                                                <div class="pull-right">
+                                                    <div id="tilerevenues" class="sparkline-block"></div>
+                                                </div>
+                                            </div>
+                                            <div class="tiles-body">
+                                                <div class="text-center">240.000</div>
+                                            </div>
+                                            <div class="tiles-footer">
+                                                <div class="pull-left">Realizadas: 5</div>
+                                                <div class="pull-right">Canceladas: 7</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a class="info-tiles tiles-blue has-footer" href="#">
+                                            <div class="tiles-heading">
+                                                <div class="pull-left">Janeiro</div>
+                                                <div class="pull-right">
+                                                    <div id="tiletickets" class="sparkline-block"></div>
+                                                </div>
+                                            </div>
+                                            <div class="tiles-body">
+                                                <div class="text-center">735.000</div>
+                                            </div>
+                                            <div class="tiles-footer">
+                                                <div class="pull-left">Realizadas: 15</div>
+                                                <div class="pull-right">Canceladas: 9</div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <a class="info-tiles tiles-midnightblue has-footer" href="#">
+                                            <div class="tiles-heading">
+                                                <div class="pull-left">Fevereiro</div>
+                                                <div class="pull-right">
+                                                    <div id="tilemembers" class="sparkline-block"></div>
+                                                </div>
+                                            </div>
+                                            <div class="tiles-body">
+                                                <div class="text-center">988.000</div>
+                                            </div>
+                                            <div class="tiles-footer">
+                                                <div class="pull-left">Realizadas: 16</div>
+                                                <div class="pull-right">Canceladas: 13</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default demo-dashboard-graph" data-widget=''>
+                                            <div class="panel-heading">
+                                                <h2>
+                                                    <ul class="nav nav-tabs">
+                                                        <li class="active"><a href="#tab-visitor" data-toggle="tab"><i class="fa fa-user visible-xs"></i><span class="hidden-xs">Panorama</span></a></li>
+                                                        <li><a href="#tab-revenues" data-toggle="tab"><i class="fa fa-bar-chart-o visible-xs"></i><span class="hidden-xs">Compras</span></a></li>
+                                                    </ul>
+                                                </h2>
+                                            </div>
+                                            <div class="panel-editbox" data-widget-controls=""></div>
+                                            <div class="panel-body">
+                                                <div class="tab-content">
+
+                                                    <div class="clearfix">
+                                                        <button class="btn btn-default pull-left" id="daterangepicker2">
+                                                            <i class="fa fa-calendar visible-xs"></i>
+                                                            <span class="hidden-xs" style="text-transform: uppercase;">
+                                                                <!--<?php echo date("F j, Y", strtotime('-30 day')); ?> - 
+                                    <?php echo date("F j, Y"); ?>-->
+                                                            </span>
+                                                            <b class="caret"></b>
+                                                        </button>
+
+                                                        <div class="btn-toolbar pull-right">
+                                                            <div class="btn-group">
+                                                                <a href='#' class="btn btn-default dropdown-toggle" data-toggle='dropdown'><i class="fa fa-cloud-download visible-xs"></i><span class="hidden-xs">Export as </span><span class="caret"></span></a>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Text File (*.txt)</a></li>
+                                                                    <li><a href="#">Excel File (*.xlsx)</a></li>
+                                                                    <li><a href="#">PDF File (*.pdf)</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="tab-visitor" class="tab-pane active">
+                                                        <div id="visitors-stats" style="height: 250px;" class="demo-graph graph-1"></div>
+                                                    </div>
+                                                    
+                                                    <div id="tab-revenues" class="tab-pane">
+                                                        <div id="revenues-stats" style="height: 250px;" class="demo-graph graph-2"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <!-- .container-fluid -->
+                    </div>
+                    <!-- #page-content -->
+                </div>
+                <footer role="contentinfo">
+                    <div class="clearfix">
+                        <ul class="list-unstyled list-inline pull-left">
+                            <li>
+                                <h6 style="margin: 0;">&copy; 2014 Avalon</h6>
+                            </li>
+                        </ul>
+                        <button class="pull-right btn btn-link btn-xs hidden-print" id="back-to-top"><i class="fa fa-arrow-up"></i></button>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Switcher -->
+    <div class="demo-options">
+        <div class="demo-options-icon"><i class="fa fa-spin fa-fw fa-smile-o"></i></div>
+        <div class="demo-heading">Demo Settings</div>
+
+        <div class="demo-body">
+            <div class="tabular">
+                <div class="tabular-row">
+                    <div class="tabular-cell">Fixed Header</div>
+                    <div class="tabular-cell demo-switches">
+                        <input class="bootstrap-switch" type="checkbox" checked data-size="mini" data-on-color="success" data-off-color="default" name="demo-fixedheader" data-on-text="I" data-off-text="O">
+                    </div>
+                </div>
+                <div class="tabular-row">
+                    <div class="tabular-cell">Boxed Layout</div>
+                    <div class="tabular-cell demo-switches">
+                        <input class="bootstrap-switch" type="checkbox" data-size="mini" data-on-color="success" data-off-color="default" name="demo-boxedlayout" data-on-text="I" data-off-text="O">
+                    </div>
+                </div>
+                <div class="tabular-row">
+                    <div class="tabular-cell">Collapse Leftbar</div>
+                    <div class="tabular-cell demo-switches">
+                        <input class="bootstrap-switch" type="checkbox" data-size="mini" data-on-color="success" data-off-color="default" name="demo-collapseleftbar" data-on-text="I" data-off-text="O">
+                    </div>
+                </div>
+                <div class="tabular-row">
+                    <div class="tabular-cell">Collapse Rightbar</div>
+                    <div class="tabular-cell demo-switches">
+                        <input class="bootstrap-switch" type="checkbox" checked data-size="mini" data-on-color="success" data-off-color="default" name="demo-collapserightbar" data-on-text="I" data-off-text="O">
+                    </div>
+                </div>
+                <div class="tabular-row hide" id="demo-horizicon">
+                    <div class="tabular-cell">Horizontal Icons</div>
+                    <div class="tabular-cell demo-switches">
+                        <input class="bootstrap-switch" type="checkbox" checked data-size="mini" data-on-color="primary" data-off-color="warning" data-on-text="S" data-off-text="L" name="demo-horizicons">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="demo-body">
+            <div class="option-title">Header Colors</div>
+            <ul id="demo-header-color" class="demo-color-list">
+                <li><span class="demo-white"></span></li>
+                <li><span class="demo-black"></span></li>
+                <li><span class="demo-midnightblue"></span></li>
+                <li><span class="demo-primary"></span></li>
+                <li><span class="demo-info"></span></li>
+                <li><span class="demo-alizarin"></span></li>
+                <li><span class="demo-grape"></span></li>
+                <li><span class="demo-violet"></span></li>
+                <li><span class="demo-indigo"></span></li>
+            </ul>
+        </div>
+
+        <div class="demo-body">
+            <div class="option-title">Sidebar Colors</div>
+            <ul id="demo-sidebar-color" class="demo-color-list">
+                <li><span class="demo-white"></span></li>
+                <li><span class="demo-black"></span></li>
+                <li><span class="demo-midnightblue"></span></li>
+                <li><span class="demo-primary"></span></li>
+                <li><span class="demo-info"></span></li>
+                <li><span class="demo-alizarin"></span></li>
+                <li><span class="demo-grape"></span></li>
+                <li><span class="demo-violet"></span></li>
+                <li><span class="demo-indigo"></span></li>
+            </ul>
+        </div>
+
+        <div class="demo-body hide" id="demo-boxes">
+            <div class="option-title">Boxed Layout Options</div>
+            <ul id="demo-boxed-bg" class="demo-color-list">
+                <li><span class="pattern-brickwall"></span></li>
+                <li><span class="pattern-dark-stripes"></span></li>
+                <li><span class="pattern-rockywall"></span></li>
+                <li><span class="pattern-subtle-carbon"></span></li>
+                <li><span class="pattern-tweed"></span></li>
+                <li><span class="pattern-vertical-cloth"></span></li>
+                <li><span class="pattern-grey_wash_wall"></span></li>
+                <li><span class="pattern-pw_maze_black"></span></li>
+                <li><span class="patther-wild_oliva"></span></li>
+                <li><span class="pattern-stressed_linen"></span></li>
+                <li><span class="pattern-sos"></span></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- /Switcher -->
+    <!-- Load site level scripts -->
+
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> -->
+
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <!-- Load jQuery -->
+    <script src="assets/js/jqueryui-1.9.2.min.js"></script>
+    <!-- Load jQueryUI -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Load Bootstrap -->
+
+    <script src="assets/plugins/sparklines/jquery.sparklines.min.js"></script>
+    <!-- Sparkline -->
+    <script src="assets/plugins/jstree/dist/jstree.min.js"></script>
+    <!-- jsTree -->
+
+    <script src="assets/plugins/codeprettifier/prettify.js"></script>
+    <!-- Code Prettifier  -->
+    <script src="assets/plugins/bootstrap-switch/bootstrap-switch.js"></script>
+    <!-- Swith/Toggle Button -->
+
+    <script src="assets/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js"></script>
+    <!-- Bootstrap Tabdrop -->
+
+    <script src="assets/plugins/iCheck/icheck.min.js"></script>
+    <!-- iCheck -->
+
+    <script src="assets/js/enquire.min.js"></script>
+    <!-- Enquire for Responsiveness -->
+
+    <script src="assets/plugins/bootbox/bootbox.js"></script>
+    <!-- Bootbox -->
+
+    <script src="assets/plugins/simpleWeather/jquery.simpleWeather.min.js"></script>
+    <!-- Weather plugin-->
+
+    <script src="assets/js/application.js"></script>
+    <script src="assets/demo/demo.js"></script>
+    <script src="assets/demo/demo-switcher.js"></script>
+
+
+    <!-- End loading site level scripts -->
+
+    <!-- Load page level scripts-->
+
+    <script src="assets/plugins/form-daterangepicker/daterangepicker.js"></script>
+    <!-- Date Range Picker -->
+    <script src="assets/plugins/form-daterangepicker/moment.min.js"></script>
+    <!-- Moment.js for Date Range Picker -->
+
+    <script src="assets/plugins/easypiechart/jquery.easypiechart.js"></script>
+    <!-- EasyPieChart -->
+    <script src="assets/plugins/switchery/switchery.js"></script>
+    <!-- Switchery -->
+
+    <script src="assets/plugins/fullcalendar/fullcalendar.min.js"></script>
+    <!-- FullCalendar -->
+
+    <!-- Charts -->
+    <script src="assets/plugins/charts-flot/jquery.flot.min.js"></script>
+    <!-- Flot Main File -->
+    <script src="assets/plugins/charts-flot/jquery.flot.stack.min.js"></script>
+    <!-- Flot Stacked Charts Plugin -->
+    <script src="assets/plugins/charts-flot/jquery.flot.orderBars.min.js"></script>
+    <!-- Flot Ordered Bars Plugin-->
+    <script src="assets/plugins/charts-flot/jquery.flot.resize.min.js"></script>
+    <!-- Flot Responsive -->
+    <script src="assets/plugins/charts-flot/jquery.flot.tooltip.min.js"></script>
+    <!-- Flot Tooltips -->
+
+    <!-- Maps -->
+    <script src="assets/plugins/jQuery-Mapael/js/raphael/raphael-min.js"></script>
+    <!-- Load Raphael as Dependency -->
+    <script src="assets/plugins/jQuery-Mapael/js/jquery.mapael.js"></script>
+    <!-- jQuery Mapael -->
+    <script src="assets/plugins/jQuery-Mapael/js/maps/world_countries.js"></script>
+    <!-- Vector Data of World Countries -->
+
+    <script src="assets/plugins/wijets/wijets.js"></script>
+    <!-- Wijet -->
+
+    <script src="assets/demo/demo-index.js"></script>
+    <!-- Initialize scripts for this page-->
+
+    <!-- End loading page level scripts-->
+
+</body>
+</html>

@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Avalon Admin Theme</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="description" content="Avalon Admin Theme">
+    <meta name="author" content="The Red Team">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 10]>
+        <script src="assets/js/media.match.min.js"></script>
+        <script src="assets/js/placeholder.min.js"></script>
+    <![endif]-->
+
+    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">        <!-- Font Awesome -->
+    <link href="assets/css/styles.css" type="text/css" rel="stylesheet">                                     <!-- Core CSS with all styles -->
+
+    <link href="assets/plugins/jstree/dist/themes/avalon/style.min.css" type="text/css" rel="stylesheet">    <!-- jsTree -->
+    <link href="assets/plugins/codeprettifier/prettify.css" type="text/css" rel="stylesheet">                <!-- Code Prettifier -->
+    <link href="assets/plugins/iCheck/skins/minimal/blue.css" type="text/css" rel="stylesheet">              <!-- iCheck -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. Placeholdr.js enables the placeholder attribute -->
+    <!--[if lt IE 9]>
+        <link href="assets/css/ie8.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/charts-flot/excanvas.min.js"></script>
+        <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+    
+
+    </head>
+
+    <body class="infobar-offcanvas horizontal-nav">
+        
+        <div id="wrapper">
+            <header id="topnav" class="navbar navbar-default navbar-fixed-top clearfix" role="banner">
+
+	
+	<a id="leftmenu-trigger" class="" data-toggle="tooltip" data-placement="right" title="Toggle Sidebar"></a>
+	<a class="navbar-brand" href="index.html">Avalon</a>
+	<a id="rightmenu-trigger" class="" data-toggle="tooltip" data-placement="left" title="Toggle Infobar"></a>
+	
+	
+	<div class="yamm navbar-left navbar-collapse collapse in">
+		<ul class="nav navbar-nav">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega Menu<span class="caret"></span></a>
+				<ul class="dropdown-menu" style="width: 900px;">
+					<li>
+						<div class="yamm-content container-sm-height">
+							<div class="row row-sm-height yamm-col-bordered">
+								<div class="col-sm-3 col-sm-height yamm-col">
+                                            
+                                    <h3 class="yamm-category">Sidebar</h3>
+                                    <ul class="list-unstyled mb20">
+                                        <li><a href="layout-fixed-sidebars.html">Stretch Sidebars</a></li>
+                                        <li><a href="layout-sidebar-scroll.html">Scroll Sidebar</a></li>
+                                        <li><a href="layout-static-leftbar.html">Static Sidebar</a></li>
+                                        <li><a href="layout-leftbar-widgets.html">Sidebar Widgets</a></li>   
+                                    </ul>
+
+                                    <h3 class="yamm-category">Infobar</h3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="layout-infobar-offcanvas.html">Offcanvas Infobar</a></li>
+                                        <li><a href="layout-infobar-overlay.html">Overlay Infobar</a></li>
+                                        <li><a href="layout-chatbar-overlay.html">Chatbar</a></li>
+                                        <li><a href="layout-rightbar-widgets.html">Infobar Widgets</a></li>   
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-sm-3 col-sm-height yamm-col">
+                                    
+                                    <h3 class="yamm-category">Page Content</h3>
+                                    <ul class="list-unstyled mb20">
+                                        <li><a href="layout-breadcrumb-top.html">Breadcrumbs on Top</a></li>
+                                        <li><a href="layout-page-tabs.html">Page Tabs</a></li>
+                                        <li><a href="layout-fullheight-panel.html">Full-Height Panel</a></li>
+                                        <li><a href="layout-fullheight-content.html">Full-Height Content</a></li>
+                                    </ul>
+
+                                    <h3 class="yamm-category">Misc</h3>
+                                    <ul class="list-unstyled">
+                                    	<li><a href="layout-topnav-options.html">Topnav Options</a></li>
+                                        <li><a href="layout-horizontal-small.html">Horizontal Small</a></li>
+                                        <li><a href="layout-horizontal-large.html">Horizontal Large</a></li>
+                                        <li><a href="layout-boxed.html">Boxed</a></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-sm-3 col-sm-height yamm-col">
+                                    
+                                    <h3 class="yamm-category">Analytics</h3>
+                                    <ul class="list-unstyled mb20">
+                                        <li><a href="charts-flot.html">Flot</a></li>
+                                        <li><a href="charts-sparklines.html">Sparklines</a></li>
+                                        <li><a href="charts-morris.html">Morris</a></li>
+                                        <li><a href="charts-easypiechart.html">Easy Pie Charts</a></li>
+                                    </ul>
+
+                                    <h3 class="yamm-category">Components</h3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="ui-tiles.html">Tiles</a></li>
+                                        <li><a href="custom-knob.html">jQuery Knob</a></li>
+                                        <li><a href="custom-jqueryui.html">jQuery Slider</a></li>
+                                        <li><a href="custom-ionrange.html">Ion Range Slider</a></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-sm-3 col-sm-height yamm-col">
+                                	<h3 class="yamm-category">Rem</h3>
+                                    <img src="assets/demo/stockphoto/communication_12_carousel.jpg" class="mb20 img-responsive" style="width: 100%;">
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                </div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="dropdown" id="widget-classicmenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+			<li><a href="frontend/index.html" target="_blank"><strong>Frontend</strong></a></li>
+			<li><a href="landing/index.html" target="_blank"><strong>Landing Page</strong></a></li>
+		</ul>
+	</div>
+
+	<ul class="nav navbar-nav toolbar pull-right">
+		<li class="dropdown">
+			<a href="#" id="navbar-links-toggle" data-toggle="collapse" data-target="header>.navbar-collapse">&nbsp;</a>
+		</li>
+
+		<li class="toolbar-icon-bg demo-headerdrop-hidden">
+            <a href="#" id="headerbardropdown"><span class="icon-bg"><i class="fa fa-fw fa-level-down"></i></span></i></a>
+        </li>
+
+
+		<li class="dropdown toolbar-icon-bg hidden-xs">
+			<a href="#" class="hasnotifications dropdown-toggle" data-toggle='dropdown'><span class="icon-bg"><i class="fa fa-fw fa-tasks"></i></span><span class="badge badge-warning">7</span></a>
+			<div class="dropdown-menu taskprogresses arrow">
+				<div class="dd-header">
+					<span>Tasks</span>
+					<span><a href="#">Settings</a></span>
+				</div>
+				<ul class="scrollthis">
+					<li>
+						<a href="#">
+							<div class="contextual-progress">
+			                    <div class="clearfix">
+			                        <div class="progress-title">Template Styling</div>
+			                        <div class="progress-percentage">5/25</div>
+			                    </div>
+			                    <div class="progress progress-lg">
+			                        <div class="progress-bar progress-bar-inverse" style="width: 20%"></div>
+			                    </div>
+			                </div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="contextual-progress">
+			                    <div class="clearfix">
+			                        <div class="progress-title">App Development</div>
+			                        <div class="progress-percentage">3/9</div>
+			                    </div>
+			                    <div class="progress progress-lg progress-striped active">
+			                        <div class="progress-bar progress-bar-success" style="width: 33%"></div>
+			                    </div>
+			                </div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="contextual-progress">
+			                    <div class="clearfix">
+			                        <div class="progress-title">App Interface</div>
+			                        <div class="progress-percentage">15%</div>
+			                    </div>
+			                    <div class="progress">
+			                        <div class="progress-bar progress-bar-danger" style="width: 15%"></div>
+			                    </div>
+			                </div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="contextual-progress">
+			                    <div class="clearfix">
+			                        <div class="progress-title">Documentation</div>
+			                        <div class="progress-percentage">4/5</div>
+			                    </div>
+			                    <div class="progress">
+			                        <div class="progress-bar progress-bar-primary" style="width: 80%"></div>
+			                    </div>
+			                </div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="contextual-progress">
+			                    <div class="clearfix">
+			                        <div class="progress-title">eCommerce</div>
+			                        <div class="progress-percentage">6/10</div>
+			                    </div>
+			                    <div class="progress progress-striped active">
+			                        <div class="progress-bar progress-bar-warning" style="width: 60%"></div>
+			                    </div>
+			                </div>
+						</a>
+					</li>
+				
+					
+				</ul>
+				<div class="dd-footer">
+					<a href="#">View all tasks</a>
+				</div>
+			</div>
+		</li>
+
+		
+		<li class="dropdown toolbar-icon-bg">
+			<a href="#" class="hasnotifications dropdown-toggle" data-toggle='dropdown'><span class="icon-bg"><i class="fa fa-fw fa-bell"></i></span><span class="badge badge-alizarin">5</span></a>
+			<div class="dropdown-menu notifications arrow">
+				<div class="dd-header">
+					<span>Notifications</span>
+					<span><a href="#">Settings</a></span>
+				</div>
+				<ul class="scrollthis">
+					<li class="">
+						<a href="#" class="notification-success">
+							<div class="notification-icon"><i class="fa fa-check fa-fw"></i></div>
+							<div class="notification-content"><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit!</div>
+							<div class="notification-time">40m</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#" class="notification-danger">
+							<div class="notification-icon"><i class="fa fa-times fa-fw"></i></div>
+							<div class="notification-content">Etiam porta sem malesuada</div>
+							<div class="notification-time">5h</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#" class="notification-inverse">
+							<div class="notification-icon"><i class="fa fa-cloud fa-fw"></i></div>
+							<div class="notification-content"><strong>Nesciunt</strong> reprehenderit provident distinctio eveniet cupiditate atque</div>
+							<div class="notification-time">16h</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#" class="notification-warning">
+							<div class="notification-icon"><i class="fa fa-warning fa-fw"></i></div>
+							<div class="notification-content">Aperiam accusamus modi ipsum officia quas nisi!</div>
+							<div class="notification-time">1d</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#" class="notification-info">
+							<div class="notification-icon"><i class="fa fa-shopping-cart fa-fw"></i></div>
+							<div class="notification-content">Libero distinctio eveniet</div>
+							<div class="notification-time">5d</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#" class="notification-primary">
+							<div class="notification-icon"><i class="fa fa-comment fa-fw"></i></div>
+							<div class="notification-content">Officiis modi ipsum officia ad dolor sit amet consectetur sit voluptatem accusantium doloremque laudantium totam rem aperiam</div>
+							<div class="notification-time">8d</div>
+						</a>
+					</li>
+				</ul>
+				<div class="dd-footer">
+					<a href="#">View all notifications</a>
+				</div>
+			</div>
+		</li>
+
+		<li class="dropdown toolbar-icon-bg hidden-xs">
+			<a href="#" class="hasnotifications dropdown-toggle" data-toggle='dropdown'><span class="icon-bg"><i class="fa fa-fw fa-envelope"></i></span><span class="badge badge-info">1</span></a>
+			<div class="dropdown-menu messages arrow">
+				<div class="dd-header">
+					<span>Messages</span>
+					<span><a href="#">Settings</a></span>
+				</div>
+
+				<ul class="scrollthis">
+					<li class="">
+						<a href="#">
+							<img class="msg-avatar" src="assets/demo/avatar/avatar_09.png" alt="avatar" />
+							<div class="msg-content">
+								<span class="name">Steven Shipe</span>
+								<span class="msg">Nonummy nibh epismod lorem ipsum</span>
+							</div>
+							<span class="msg-time">30s</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="msg-avatar" src="assets/demo/avatar/avatar_01.png" alt="avatar" />
+							<div class="msg-content">
+								<span class="name">Roxann Hollingworth <i class="fa fa-paperclip attachment"></i></span>
+								<span class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit</span>
+							</div>
+							<span class="msg-time">5m</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="msg-avatar" src="assets/demo/avatar/avatar_05.png" alt="avatar" />
+							<div class="msg-content">
+								<span class="name">Diamond Harlands</span>
+								<span class="msg">:)</span>
+							</div>
+							<span class="msg-time">3h</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="msg-avatar" src="assets/demo/avatar/avatar_02.png" alt="avatar" />
+							<div class="msg-content">
+								<span class="name">Michael Serio <i class="fa fa-paperclip attachment"></i></span>
+								<span class="msg">Sed distinctio dolores fuga molestiae modi?</span>
+							</div>
+							<span class="msg-time">12h</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="msg-avatar" src="assets/demo/avatar/avatar_03.png" alt="avatar" />
+							<div class="msg-content">
+								<span class="name">Matt Jones</span>
+								<span class="msg">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et mole</span>
+							</div>
+							<span class="msg-time">2d</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="msg-avatar" src="assets/demo/avatar/avatar_07.png" alt="avatar" />
+							<div class="msg-content">
+								<span class="name">John Doe</span>
+								<span class="msg">Neque porro quisquam est qui dolorem</span>
+							</div>
+							<span class="msg-time">7d</span>
+						</a>
+					</li>					
+				</ul>
+				<div class="dd-footer"><a href="#">View all messages</a></div>
+			</div>
+		</li>
+
+		<li class="dropdown toolbar-icon-bg demo-search-hidden mr5">
+			<a href="#" class="dropdown-toggle tooltips" data-toggle="dropdown"><span class="icon-bg"><i class="fa fa-fw fa-search"></i></span></a>
+			
+			<div class="dropdown-menu arrow search dropdown-menu-form">
+				<div class="dd-header">
+					<span>Search</span>
+					<span><a href="#">Advanced search</a></span>
+				</div>
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="">
+					
+					<span class="input-group-btn">
+						
+						<a class="btn btn-primary" href="#">Search</a>
+					</span>
+				</div>
+			</div>
+		</li>
+
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle username" data-toggle="dropdown">
+				<span class="hidden-xs">Alexander Smith</span>
+				<img class="img-circle" src="assets/demo/avatar/avatar_06.png" alt="Dangerfield" />
+
+			</a>
+			<ul class="dropdown-menu userinfo">
+				<li><a href="#"><span class="pull-left">Edit Profile</span> <i class="pull-right fa fa-pencil"></i></a></li>
+				<li><a href="#"><span class="pull-left">Account Settings</span> <i class="pull-right fa fa-cogs"></i></a></li>
+				<li><a href="#"><span class="pull-left">Help</span> <i class="pull-right fa fa-question-circle"></i></a></li>
+				<li class="divider"></li>
+				<li><a href="#"><span class="pull-left">Earnings</span> <i class="pull-right fa fa-money"></i></a></li>
+				<li><a href="#"><span class="pull-left">Statement</span> <i class="pull-right fa fa-file-o"></i></a></li>
+				<li><a href="#"><span class="pull-left">Withdrawals</span> <i class="pull-right fa fa-credit-card"></i></a></li>
+				<li class="divider"></li>
+				<li><a href="#"><span class="pull-left">Sign Out</span> <i class="pull-right fa fa-sign-out"></i></a></li>
+			</ul>
+		</li>
+
+	</ul>
+
+</header>
+
+            <div class="static-content">
+                <div class="page-content">
+                    <div class="page-heading">            
+                        <h1>Horizontal Megamenu with Sidebar Tools</h1>
+                        <div class="options">
+    <div class="btn-toolbar">
+        <a href="#" class="btn btn-default"><i class="fa fa-fw fa-cog"></i></a>
+    </div>
+</div>
+                    </div>
+                    <ol class="breadcrumb">
+                        
+<li><a href="index.html">Home</a></li>
+<li><a href="#">Layout</a></li>
+<li class="active"><a href="layout-horizontal-megamenu.html">Horizontal Megamenu with Sidebar Tools</a></li>
+
+                    </ol>
+                    <div class="container-fluid">
+                        
+<div class="row">
+	<div class="col-md-12">
+
+		<div class="alert alert-info"><p>Avalon comes built-in with a lightweight and pure CSS megamenu that uses the standard navbar markup and the fluid grid system classes from Bootstrap 3. Work for fixed and responsive layout and has the facility to include (almost) any Bootstrap elements.</p></div>
+
+		<div class="panel panel-info">
+			<div class="panel-heading"><h2>Fixed width menu with Navbar Default style</h2></div>
+			<div class="panel-body">
+				<nav class="navbar navbar-default mb20" role="navigation">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Navbar</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="yamm collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accordion <b class="caret"></b></a>
+								<ul class="dropdown-menu" style="width: 900px;">
+									<li>
+										<div class="yamm-content container-sm-height">
+											<div class="row row-sm-height yamm-col-bordered">
+												<div class="col-sm-3 col-sm-height yamm-col">
+													<h6>
+														<span class="yamm-category">Variations</span>
+													</h6>
+													<ul class="list-unstyled">
+														<li><a href="layout-fixed-sidebars">Fixed Sidebars</a></li>
+														<li><a href="layout-infobar-offcanvas">Offcanvas Infobar</a></li>
+														<li><a href="layout-infobar-overlay">Overlay Infobar</a></li>
+														<li><a href="layout-sidebar-scroll">Scroll Sidebar</a></li>
+														<li><a href="layout-boxed">Boxed</a></li>
+														<li><a href="layout-chatbar-overlay">Chatbar</a></li>
+														<li><a href="layout-compact">Compact</a></li>
+														
+													</ul>
+												</div>
+												<div class="col-sm-3 col-sm-height yamm-col">
+													<h6>
+														<span class="yamm-category">Variations</span>
+													</h6>
+													<ul class="list-unstyled">
+														<li><a href="layout-fixed-sidebars">Fixed Sidebars</a></li>
+														<li><a href="layout-infobar-offcanvas">Offcanvas Infobar</a></li>
+														<li><a href="layout-infobar-overlay">Overlay Infobar</a></li>
+														<li><a href="layout-sidebar-scroll">Scroll Sidebar</a></li>
+														<li><a href="layout-boxed">Boxed</a></li>
+														<li><a href="layout-chatbar-overlay">Chatbar</a></li>
+														<li><a href="layout-compact">Compact</a></li>
+														
+													</ul>
+												</div>
+												<div class="col-sm-6 col-sm-height yamm-col">
+													<div class="accordion-group" id="accordionB">
+														<div class="panel accordion-item">
+															<a class="accordion-title" data-toggle="collapse" data-parent="#accordionB" href="#collapseaOne"><h2>Collapsible Group Item #1</h2></a>
+															<div id="collapseaOne" class="collapse in">
+																<div class="accordion-body">
+																	Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+																</div>
+															</div>
+														</div>
+														<div class="panel accordion-item">
+															<a class="accordion-title" data-toggle="collapse" data-parent="#accordionB" href="#collapseaTwo"><h2>Collapsible Group Item #2</h2></a>
+															<div id="collapseaTwo" class="collapse">
+																<div class="accordion-body">
+																	Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+																</div>
+															</div>
+														</div>
+														<div class="panel accordion-item">
+															<a class="accordion-title" data-toggle="collapse" data-parent="#accordionB" href="#collapseaThree"><h2>Collapsible Group Item #3</h2></a>
+															<div id="collapseaThree" class="collapse">
+																<div class="accordion-body">
+																	Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+								<ul class="dropdown-menu" style="width: 900px">
+									<li>
+										<div class="yamm-content">
+											<div class="container">
+												<div class="row">
+													<div class="col-sm-4 yamm-col">
+														<h6><span class="yamm-category">From the Blog</span></h6>
+														<style>
+															.from-the-blog {padding-left: 0;}
+															.from-the-blog a {background: none; padding: 0 !important;}
+															.from-the-blog li {margin: 0 0 10px 0 !important;}
+															.from-the-blog img {height: 60px;}
+															.from-the-blog .tabular-cell:first-child {width: 100px;padding-right: 10px;}
+														</style>
+														<ul class="list-unstlyed from-the-blog">
+												
+															<li class="tabular">
+																<a href="#" class="tabular-row">
+																	<div class="tabular-cell">
+																		<img src="assets/demo/stockphoto/music_08.jpg" alt="">
+																	</div>
+																	<h6 class="tabular-cell">How does quartz in a clock keep time?</h6>
+																</a>
+															</li>
+															<li class="tabular">
+																<a href="#" class="tabular-row">
+																	<div class="tabular-cell">
+																		<img src="assets/demo/stockphoto/music_10.jpg" alt="">
+																	</div>
+																	<h6 class="tabular-cell">How would you prevent and fight DDoS Attack?</h6>
+																</a>
+															</li>
+															<li class="tabular">
+																<a href="#" class="tabular-row">
+																	<div class="tabular-cell">
+																		<img src="assets/demo/stockphoto/music_11.jpg" alt="">
+																	</div>
+																	<h6 class="tabular-cell">Is the center of a rotating circle at rest?</h6>
+																</a>
+															</li>
+															<li class="tabular">
+																<a href="#" class="tabular-row">
+																	<div class="tabular-cell">
+																		<img src="assets/demo/stockphoto/portfolio_01.jpg" alt="">
+																	</div>
+																	<h6 class="tabular-cell">Is the center of a rotating circle at rest?</h6>
+																</a>
+															</li>
+														</ul>
+												
+													</div>
+													<div class="col-sm-4 yamm-col">
+														<div id="basic-map" style="height: 312px !important; width: 273px !important"></div>
+													</div>
+													<div class="col-sm-4 yamm-col">
+														<form action="#">
+															<div class="form-group mb10">
+																<label class="mb5">Name <small>(required)</small></label>
+																<input type="text" class="form-control input-sm" placeholder="">
+															</div>
+															<div class="form-group mb10">
+																<label class="mb5">Email Address <small>(required)</small></label>
+																<input type="text" class="form-control input-sm" placeholder="">
+															</div>
+															<div class="form-group mb10">
+																<label class="mb5">Message</label>
+																<textarea class="form-control" rows="5">This form is for demonstration purposes only</textarea>
+															</div>
+															<button class="btn btn-primary">Submit</button>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tables <b class="caret"></b></a>
+								<ul class="dropdown-menu" style="width: 900px">
+									<div class="yamm-content">
+										<div class="yamm-col">
+											<table class="table table-striped mb0">
+												<thead>
+													<tr>
+														<th>#</th>
+														<th>First Name</th>
+														<th>Last Name</th>
+														<th>Username</th>
+														<th>First Name</th>
+														<th>Last Name</th>
+														<th>Username</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>1</td>
+														<td>Mark</td>
+														<td>Otto</td>
+														<td>@mdo</td>
+														<td>Mark</td>
+														<td>Otto</td>
+														<td>@mdo</td>
+													</tr>
+													<tr>
+														<td>2</td>
+														<td>Jacob</td>
+														<td>Thornton</td>
+														<td>@fat</td>
+														<td>Jacob</td>
+														<td>Thornton</td>
+														<td>@fat</td>
+													</tr>
+													<tr>
+														<td>3</td>
+														<td colspan="2">Larry the Bird</td>
+														<td>@twitter</td>
+														<td colspan="2">Larry the Bird</td>
+														<td>@twitter</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Link</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Classic Dropdown <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</nav>
+
+				<div class="row">
+					<div class="col-md-4">
+						<h4>Markup</h4>
+						
+						<ul>
+							<li>Reuse navbar markup and add class <code>.yamm</code> at the top.</li>
+							<li>Then add your markup into the <code>.dropdown-menu</code></li>
+							<li>Optionally, use .<code>yamm-content</code> to wrap content with padding.</li>
+							<li>Optionally, add a fixed width to <code>ul.dropdown-menu</code> using <code>style</code></li>
+						</ul>
+					</div>
+					<div class="col-md-8">
+<pre class="prettyprint">
+&lt;nav class=&quot;navbar yamm navbar-default &quot; role=&quot;navigation&quot;&gt;
+...
+     &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+       &lt;li class=&quot;dropdown&quot;&gt;
+         &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Dropdown&lt;/a&gt;
+         &lt;ul class=&quot;dropdown-menu&quot;&gt;
+           &lt;li&gt;
+               &lt;div class=&quot;yamm-content&quot;&gt;
+                  &lt;div class=&quot;row&quot;&gt; 
+                    ...
+                  &lt;/div&gt;
+               &lt;/div&gt;
+           &lt;/li&gt;
+         &lt;/ul&gt;
+       &lt;/li&gt;
+     &lt;/ul&gt;
+...
+&lt;/nav&gt;
+</pre>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-info">
+			<div class="panel-heading"><h2>Full width menu with Navbar Inverse style</h2></div>
+			<div class="panel-body">
+				<nav class="navbar navbar-inverse mb20" role="navigation">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#">Navbar</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="yamm collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+								<ul class="nav navbar-nav">
+									<li class="dropdown yamm-fw">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Grid <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li class="show-grid">
+												<div class="yamm-content">
+									                <div class="row">
+									                      <div class="col-sm-12">.col-sm-12</div>
+								                    </div>
+								                    <div class="row">
+									                      <div class="col-sm-6">.col-sm-6</div>
+									                      <div class="col-sm-6">.col-sm-6</div>
+								                    </div>
+								                    <div class="row">
+									                      <div class="col-sm-4">.col-sm-4</div>
+									                      <div class="col-sm-4">.col-sm-4</div>
+									                      <div class="col-sm-4">.col-sm-4</div>
+								                    </div>
+								                    <div class="row">
+									                      <div class="col-sm-3">.col-sm-3</div>
+									                      <div class="col-sm-3">.col-sm-3</div>
+									                      <div class="col-sm-3">.col-sm-3</div>
+									                      <div class="col-sm-3">.col-sm-3</div>
+								                    </div>
+								                    <div class="row">
+									                      <div class="col-sm-2">.col-sm-2</div>
+									                      <div class="col-sm-2">.col-sm-2</div>
+									                      <div class="col-sm-2">.col-sm-2</div>
+									                      <div class="col-sm-2">.col-sm-2</div>
+									                      <div class="col-sm-2">.col-sm-2</div>
+									                      <div class="col-sm-2">.col-sm-2</div>
+								                    </div>
+								                    <div class="row">
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                      <div class="col-sm-1">.col-sm-1</div>
+									                </div>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown yamm-fw">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Offset <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li class="show-grid">
+												<div class="yamm-content">
+									                <div class="row">
+									                      <div class="col-sm-4">4</div>
+									                      <div class="col-sm-4 col-sm-offset-4">4 offset 4</div>
+									                </div>
+									                <div class="row">
+									                      <div class="col-sm-3 col-sm-offset-3">3 offset 3</div>
+									                      <div class="col-sm-3 col-sm-offset-3">3 offset 3</div>
+									                </div>
+									                <div class="row">
+									                      <div class="col-sm-6 col-sm-offset-3">6 offset 6</div>
+									                </div>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown yamm-fw">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Aside <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li class="show-grid">
+												<div class="yamm-content">
+													<div class="row">
+														<div class="col-sm-3"><br>
+															<h3>3</h3><br>
+														</div>
+														<div class="col-sm-9"><br>
+															<h3>9</h3><br>
+														</div>
+													</div>
+												</div>
+							                </li>
+						                </ul>
+									</li>
+									<li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Nesting<b class="caret"></b></a>
+						                <ul class="dropdown-menu">
+						                  <li class="show-grid">
+						                    <div class="row">
+						                      <div class="col-sm-12">12</div>
+						                    </div>
+						                    <div class="row">
+						                      <div class="col-sm-12">12
+						                        <div class="row">
+						                          <div class="col-sm-4">4</div>
+						                          <div class="col-sm-4">4</div>
+						                          <div class="col-sm-4">4</div>
+						                        </div>
+						                      </div>
+						                    </div>
+						                  </li>
+						                </ul>
+						              </li>
+									
+								</ul>
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="#">Link</a>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Action</a></li>
+											<li><a href="#">Another action</a></li>
+											<li><a href="#">Something else here</a></li>
+											<li class="divider"></li>
+											<li><a href="#">Separated link</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+						
+						<div class="row">
+							<div class="col-md-3">
+								<h3>Width</h3>
+								<p>By default every mega-dropdown will take the content size so is possible to use add .yamm-fw to .dropdown to expand it fullwidth</p>
+								<p>Yamm works better with fullwidth menus.</p>
+							</div>
+							<div class="col-md-9">
+<pre class="prettyprint">
+&lt;nav class=&quot;navbar yamm navbar-default &quot; role=&quot;navigation&quot;&gt;
+...
+     &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+       &lt;li class=&quot;dropdown yamm-fw&quot;&gt;
+             ...
+       &lt;/li&gt;
+     &lt;/ul&gt;
+...
+&lt;/nav&gt;
+</pre>
+							</div>
+						</div>
+
+
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, asperiores, minima nostrum non ratione quibusdam minus facere neque sit quos quidem dolore deserunt officia harum iusto reprehenderit nesciunt totam nulla? Fugit excepturi veniam quos iste sint ad ipsum natus deleniti perferendis voluptatem. Harum, natus consequuntur dolorum quae repudiandae necessitatibus ducimus molestiae cumque. Explicabo, cumque, eveniet, expedita iure earum reprehenderit vel non doloremque repellat sunt minima eum reiciendis quia quaerat fuga similique provident incidunt accusantium voluptatem ex. Quaerat, laboriosam, doloremque, ipsum, voluptas soluta dolores ea tempora voluptatibus minus reprehenderit laborum vitae dolorum eos blanditiis nulla itaque atque. Explicabo, iure veritatis id.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+                    </div> <!-- .container-fluid -->
+                </div> <!-- #page-content -->
+            </div>
+
+        </div>
+        <footer role="contentinfo">
+    <div class="clearfix">
+        <ul class="list-unstyled list-inline pull-left">
+            <li><h6 style="margin: 0;"> &copy; 2014 Avalon</h6></li>
+        </ul>
+        <button class="pull-right btn btn-link btn-xs hidden-print" id="back-to-top"><i class="fa fa-arrow-up"></i></button>
+    </div>
+</footer>
+
+
+        <div class="infobar-wrapper">
+            <div class="infobar">
+
+    <div class="infobar-options">
+        <h2>Infobar</h2>
+    </div>
+
+    <div id="widgetarea">
+
+
+        <div class="widget" id="widget-sparkline">
+            <div class="widget-heading">
+                <a href="javascript:;" data-toggle="collapse" data-target="#sparklinestats"><h4>Sparkline Stats</h4></a>
+            </div>
+            <div class="widget-body collapse in" id="sparklinestats">
+                <ul class="sparklinestats">
+                    <li>
+                        <div class="pull-left">
+                            <h5 class="title">Total Revenue</h5>
+                            <h3>$241,750 <span class="badge badge-success">+13.6%</span></h3>
+                        </div>
+                        <div class="pull-right">
+                            <div class="sparkline" id="infobar-revenuestats"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <h5 class="title">Products Sold</h5>
+                            <h3>11,562 <span class="badge badge-success">+19.2%</span></h3>
+                        </div>
+                        <div class="pull-right">
+                            <div class="sparkline" id="infobar-unitssold"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <h5 class="title">Total Orders</h5>
+                            <h3>1,249 <span class="badge badge-danger">-10.5%</span></h3>
+                        </div>
+                        <div class="pull-right">
+                            <div class="sparkline" id="infobar-orders"></div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="widget" id="widget-weather">
+            <div class="widget-heading">
+                <a href="javascript:;" data-toggle="collapse" data-target="#weatherwidget"><h4>Weather</h4></a>
+            </div>
+            <div class="widget-body collapse in" id="weatherwidget">
+                <div class="weather-container">
+                    <div class="weather-widget"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="widget">
+            <div class="widget-heading">
+                <a href="javascript:;" data-toggle="collapse" data-target="#recentactivity"><h4>Recent Activity</h4></a>
+            </div>
+            <div class="widget-body collapse in" id="recentactivity">
+                <ul class="recent-activities">
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_11.png" class="img-responsive img-circle">
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#" class="person">Jean Alanis</a> invited 3 unconfirmed members to <a href="#">Sed ut perspiciatis unde</a></span>
+                            <span class="time">Sep 16, 2014 at 10:06 AM</span>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="activityicon activity-success">
+                            <i class="fa fa-cloud"></i>
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#" class="person">Stacy Villani</a> and <a href="#" class="person">Leroy Greenlee</a> added new files to <a href="#">Dicta sunt explicabo</a></span>
+                            <span class="time">Sep 12, 2014 at 11:06 PM</span>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_07.png" class="img-responsive img-circle">
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#" class="person">Shannon Schmucker</a> is now following <a href="#" class="person">Anthony Ware</a></span>
+                            <span class="time">Sep 06, 2014 at 1:46 AM</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_01.png" class="img-responsive img-circle">
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#" class="person">Roxann Hollingworth</a> commented on <a href="#">Natus error sit voluptatem</a></span>
+                            <span class="time">Sep 02, 2014 at 7:50 PM</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_04.png" class="img-responsive img-circle">
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#" class="person">Mitchell Kosak</a> added <a href="#" class="person">Bruce Ory</a> to <a href="#">Accusantium doloremque laudantium</a></span>
+                            <span class="time">Sep 02, 2014 at 8:35 AM</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="activityicon activity-inverse">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#">4 new users</a> requested to join group</span>
+                            <span class="time">Aug 29, 2014 at 05:34 PM</span>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_09.png" class="img-responsive img-circle">
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#" class="person">Rodney Moody</a> created new thread <a href="#">Vero eos et accusamus</a></span>
+                            <span class="time">Aug 13, 2014 at 1:23 PM</span>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="activityicon activity-info">
+                            <i class="fa fa-comment-o"></i>
+                        </div>
+                        <div class="content">
+                            <span class="msg">Anonymous user commented on <a href="#">Totam rem aperiam</a></span>
+                            <span class="time">Aug 11, 2014 at 12:01 PM</span>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_05.png" class="img-responsive img-circle">
+                        </div>
+                        <div class="content">
+                            <span class="msg"><a href="#" class="person">Pricilla Panella</a> is now following <a href="#" class="person">Ricky Marengo</a></span>
+                            <span class="time">Jul 25, 2014 at 3:11 PM</span>
+                        </div>
+                    </li>
+                    <li class="seeall">
+                        <a href="#" class="pull-right">See all activities</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+
+        <!-- <div class="widget">
+            <div class="widget-heading">
+                <a href="javascript:;" data-toggle="collapse" data-target="#storagespace"><h4>Storage Space</h4></a>
+            </div>
+            <div class="widget-body collapse in" id="storagespace">
+                <div class="" style="padding: 20px 0">
+                    <div class="clearfix">
+                        <div class="progress-title pull-left">1.31 GB used</div>
+                        <div class="progress-percentage pull-right">87.3%</div>
+                    </div>
+                    <div class="progress progress-lg">
+                        <div class="progress-bar progress-bar-success" style="width: 50%"></div>
+                        <div class="progress-bar progress-bar-warning" style="width: 25%"></div>
+                        <div class="progress-bar progress-bar-danger" style="width: 12.3%"></div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="widget">
+            <div class="widget-heading">
+                <a href="javascript:;" data-toggle="collapse" data-target="#contactdetails"><h4>Contact Details</h4></a>
+            </div>
+            <div class="widget-body collapse in" id="contactdetails">
+                <div class="contactdetails">
+                    <div class="avatar">
+                        <img src="assets/demo/avatar/avatar_11.png" class="img-responsive img-circle">
+                    </div>
+                    <span class="contact-name">Joseph Vasquez</span>
+                    <span class="contact-status">Client Representative</span>
+                    <ul class="details">
+                        
+                        <li><a href="#"><i class="fa fa-fw fa-envelope-o"></i>&nbsp;p.bateman@gmail.com</a></li>
+                        <li><i class="fa fa-fw fa-phone"></i>&nbsp;+1 234 567 890</li>
+                        <li><i class="fa fa-fw fa-map-marker"></i>&nbsp;Hollywood Hills, California</li>
+                        
+                    </ul>
+
+            </div>
+        </div> -->
+
+
+        <!-- <div class="widget">
+            <div class="widget-heading">
+                <a href="javascript:;" data-toggle="collapse" data-target="#contact-list"><h4>Contact List</h4></a>
+            </div>
+            <div class="widget-body collapse in" id="contact-list">
+                <ul class="contact-list">
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_06.png" class="img-responsive img-circle" />
+                        </div>
+                        <div class="details">
+                            <div class="clearfix">
+                                <a href="#" class="contact-name pull-left">Jessie Pinkman</a>
+                                
+                                    <div class="contact-profiles">
+                                        <a href="javascript:;" class="dropdown-toggle profile-list" data-toggle="dropdown">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#"><i class="fa pull-right fa-envelope-o" style="color: #cccccc;"></i>Email</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-skype" style="color: #12a5f4;"></i>Skype</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-twitter" style="color: #00aced;"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-linkedin" style="color: #007bb6;"></i>LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                
+                            </div>
+                            <span class="contact-details">Senior Developer</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_01.png" class="img-responsive img-circle" />
+                        </div>
+                        <div class="details">
+                            <div class="clearfix">
+                                <a href="#" class="contact-name pull-left">Emma Watson</a>
+                                
+                                    <div class="contact-profiles">
+                                        <a href="javascript:;" class="dropdown-toggle profile-list" data-toggle="dropdown">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#"><i class="fa pull-right fa-envelope-o" style="color: #cccccc;"></i>Email</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-skype" style="color: #12a5f4;"></i>Skype</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-twitter" style="color: #00aced;"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-linkedin" style="color: #007bb6;"></i>LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                
+                            </div>
+                            <span class="contact-details">Graphic Designer</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_09.png" class="img-responsive img-circle" />
+                        </div>
+                        <div class="details">
+                            <div class="clearfix">
+                                <a href="#" class="contact-name pull-left">David Luke</a>
+                                
+                                    <div class="contact-profiles">
+                                        <a href="javascript:;" class="dropdown-toggle profile-list" data-toggle="dropdown">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#"><i class="fa pull-right fa-envelope-o" style="color: #cccccc;"></i>Email</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-skype" style="color: #12a5f4;"></i>Skype</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-twitter" style="color: #00aced;"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-linkedin" style="color: #007bb6;"></i>LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                
+                            </div>
+                            <span class="contact-details">Client Representative</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_11.png" class="img-responsive img-circle" />
+                        </div>
+                        <div class="details">
+                            <div class="clearfix">
+                                <a href="#" class="contact-name pull-left">John Arren</a>
+                                
+                                    <div class="contact-profiles">
+                                        <a href="javascript:;" class="dropdown-toggle profile-list" data-toggle="dropdown">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#"><i class="fa pull-right fa-envelope-o" style="color: #cccccc;"></i>Email</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-skype" style="color: #12a5f4;"></i>Skype</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-twitter" style="color: #00aced;"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-linkedin" style="color: #007bb6;"></i>LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                
+                            </div>
+                            <span class="contact-details">Project Manager</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_05.png" class="img-responsive img-circle" />
+                        </div>
+                        <div class="details">
+                            <div class="clearfix">
+                                <a href="#" class="contact-name pull-left">Ben Stiller</a>
+                                
+                                    <div class="contact-profiles">
+                                        <a href="javascript:;" class="dropdown-toggle profile-list" data-toggle="dropdown">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#"><i class="fa pull-right fa-envelope-o" style="color: #cccccc;"></i>Email</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-skype" style="color: #12a5f4;"></i>Skype</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-twitter" style="color: #00aced;"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-linkedin" style="color: #007bb6;"></i>LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                
+                            </div>
+                            <span class="contact-details">Senior Designer</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="avatar">
+                            <img src="assets/demo/avatar/avatar_08.png" class="img-responsive img-circle" />
+                        </div>
+                        <div class="details">
+                            <div class="clearfix">
+                                <a href="#" class="contact-name pull-left">Jeofry Thompson</a>
+                                
+                                    <div class="contact-profiles">
+                                        <a href="javascript:;" class="dropdown-toggle profile-list" data-toggle="dropdown">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#"><i class="fa pull-right fa-envelope-o" style="color: #cccccc;"></i>Email</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-skype" style="color: #12a5f4;"></i>Skype</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-twitter" style="color: #00aced;"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa pull-right fa-linkedin" style="color: #007bb6;"></i>LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                
+                            </div>
+                            <span class="contact-details">Developer</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+        
+
+
+    </div>
+</div>
+        </div>
+
+
+    
+    <!-- Load site level scripts -->
+
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> -->
+
+<script src="assets/js/jquery-1.10.2.min.js"></script> 							<!-- Load jQuery -->
+<script src="assets/js/jqueryui-1.9.2.min.js"></script> 							<!-- Load jQueryUI -->
+<script src="assets/js/bootstrap.min.js"></script> 								<!-- Load Bootstrap -->
+
+<script src="assets/plugins/sparklines/jquery.sparklines.min.js"></script>  		<!-- Sparkline -->
+<script src="assets/plugins/jstree/dist/jstree.min.js"></script>  				<!-- jsTree -->
+
+<script src="assets/plugins/codeprettifier/prettify.js"></script> 				<!-- Code Prettifier  -->
+<script src="assets/plugins/bootstrap-switch/bootstrap-switch.js"></script> 		<!-- Swith/Toggle Button -->
+
+<script src="assets/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js"></script>  <!-- Bootstrap Tabdrop -->
+
+<script src="assets/plugins/iCheck/icheck.min.js"></script>     					<!-- iCheck -->
+
+<script src="assets/js/enquire.min.js"></script> 									<!-- Enquire for Responsiveness -->
+
+<script src="assets/plugins/bootbox/bootbox.js"></script>							<!-- Bootbox -->
+
+<script src="assets/plugins/simpleWeather/jquery.simpleWeather.min.js"></script> <!-- Weather plugin-->
+
+<script src="assets/js/application.js"></script>
+<script src="assets/demo/demo.js"></script>
+<script src="assets/demo/demo-switcher.js"></script>
+
+
+<!-- End loading site level scripts -->
+    
+    <!-- Load page level scripts-->
+    
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="assets/plugins/gmaps/gmaps.js"></script>
+<script>
+	$(document).ready(function () {
+
+	  map = new GMaps({
+        div: '#basic-map',
+        lat: -12.043333,
+        lng: -77.028333
+      });
+       map.addMarker({
+        lat: -12.042,
+        lng: -77.028333,
+        title: 'Marker with InfoWindow',
+        infoWindow: {
+          content: '<p>HTML Content</p>'
+        }
+      });
+
+    });
+</script>
+
+    <!-- End loading page level scripts-->
+
+    </body>
+</html>
